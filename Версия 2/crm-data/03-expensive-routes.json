@@ -1,0 +1,161 @@
+{
+  "version": "crm-03-expensive-routes",
+  "applied_ids": [],
+  "inventory": [
+    {
+      "sku": "Джинсы · 32",
+      "price": 5900,
+      "category": "Джинсы 32",
+      "store": "Арбат",
+      "stock": 14,
+      "rate": 0.25,
+      "season": "осень",
+      "incoming": 0,
+      "days_left": 14,
+      "discount": 0.35
+    },
+    {
+      "sku": "Джинсы · 32",
+      "price": 5900,
+      "category": "Джинсы 32",
+      "store": "Тверская",
+      "stock": 1,
+      "rate": 1.1,
+      "season": "осень",
+      "incoming": 0,
+      "days_left": 14,
+      "discount": 0.35
+    },
+    {
+      "sku": "Джинсы · 32",
+      "price": 5900,
+      "category": "Джинсы 32",
+      "store": "Сокол",
+      "stock": 4,
+      "rate": 0.25,
+      "season": "осень",
+      "incoming": 0,
+      "days_left": 14,
+      "discount": 0.35
+    },
+    {
+      "sku": "Рубашка · M",
+      "price": 4200,
+      "category": "Рубашки M",
+      "store": "Арбат",
+      "stock": 1,
+      "rate": 0.85,
+      "season": "осень",
+      "incoming": 0,
+      "days_left": 14,
+      "discount": 0.35
+    },
+    {
+      "sku": "Рубашка · M",
+      "price": 4200,
+      "category": "Рубашки M",
+      "store": "Тверская",
+      "stock": 12,
+      "rate": 0.2,
+      "season": "осень",
+      "incoming": 0,
+      "days_left": 14,
+      "discount": 0.35
+    },
+    {
+      "sku": "Рубашка · M",
+      "price": 4200,
+      "category": "Рубашки M",
+      "store": "Сокол",
+      "stock": 4,
+      "rate": 0.3,
+      "season": "осень",
+      "incoming": 0,
+      "days_left": 14,
+      "discount": 0.35
+    }
+  ],
+  "routes": [
+    {
+      "from": "Арбат",
+      "to": "Тверская",
+      "cost": 50000,
+      "days": 1
+    },
+    {
+      "from": "Арбат",
+      "to": "Сокол",
+      "cost": 50000,
+      "days": 1
+    },
+    {
+      "from": "Тверская",
+      "to": "Арбат",
+      "cost": 50000,
+      "days": 1
+    },
+    {
+      "from": "Тверская",
+      "to": "Сокол",
+      "cost": 50000,
+      "days": 1
+    },
+    {
+      "from": "Сокол",
+      "to": "Арбат",
+      "cost": 50000,
+      "days": 1
+    },
+    {
+      "from": "Сокол",
+      "to": "Тверская",
+      "cost": 50000,
+      "days": 1
+    }
+  ],
+  "history": [
+    {
+      "store": "Арбат",
+      "category": "Джинсы 32",
+      "season": "осень",
+      "units": 15,
+      "available_days": 60
+    },
+    {
+      "store": "Тверская",
+      "category": "Джинсы 32",
+      "season": "осень",
+      "units": 66,
+      "available_days": 60
+    },
+    {
+      "store": "Сокол",
+      "category": "Джинсы 32",
+      "season": "осень",
+      "units": 15,
+      "available_days": 60
+    },
+    {
+      "store": "Арбат",
+      "category": "Рубашки M",
+      "season": "осень",
+      "units": 51,
+      "available_days": 60
+    },
+    {
+      "store": "Тверская",
+      "category": "Рубашки M",
+      "season": "осень",
+      "units": 12,
+      "available_days": 60
+    },
+    {
+      "store": "Сокол",
+      "category": "Рубашки M",
+      "season": "осень",
+      "units": 18,
+      "available_days": 60
+    }
+  ],
+  "arrivals": []
+}
